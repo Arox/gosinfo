@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<?xml-stylesheet type="text/xsl" href="printForms/notificationPF_13.xsl"?>
+<notification>
+    <competitiveDocumentProvisioning>
+        <deliveryPlace>Российская Федерация, 428029, Чувашская Республика - Чувашия, Чебоксары г, Шумилова, 7 "а", -</deliveryPlace>
+        <deliveryTerm>10.07.2013 00:00:00</deliveryTerm>
+        <deliveryTerm2>18.07.2013 08:00:00</deliveryTerm2>
+        <www>www.zakupki.gov.ru</www>
+    </competitiveDocumentProvisioning>
+    <contactInfo>
+        <orgName>муниципальное бюджетное дошкольное образовательное учреждение "Детский сад № 83 "Ручеёк" города Чебоксары Чувашской Республики</orgName>
+        <orgShortName>МБДОУ "Детский сад № 83" г. Чебоксары</orgShortName>
+        <orgInn>2128019802</orgInn>
+        <orgKpp>213001001</orgKpp>
+        <orgFactAddress>Российская Федерация, 428029, Чувашская Республика - Чувашия, Чебоксары г, Шумилова, 7 "а", -</orgFactAddress>
+        <orgPostAddress>Российская Федерация, 428029, Чувашская Республика - Чувашия, Чебоксары г, Шумилова, 7 "а", -</orgPostAddress>
+        <contactPerson>
+            <lastName>Семенова</lastName>
+            <firstName>Анна</firstName>
+            <middleName>Львовна</middleName>
+        </contactPerson>
+        <contactEMail>anya-zakupki@mail.ru</contactEMail>
+        <contactPhone>+7 (8352) 234693</contactPhone>
+        <contactFax>+7 (8352) 234698</contactFax>
+    </contactInfo>
+    <createDate>12.07.2013 09:18:36</createDate>
+    <currentDate>12.07.2013 09:20:33</currentDate>
+    <documentMetas>
+        <documentMeta>
+            <cryptoSigns/>
+            <fileName>Документация  ДС 83 хлеб.doc</fileName>
+            <fileSize>351744</fileSize>
+            <virusChecks/>
+        </documentMeta>
+    </documentMetas>
+    <energyService>false</energyService>
+    <external>false</external>
+    <harmonized>false</harmonized>
+    <lots>
+        <lot>
+            <auctionItems/>
+            <contractSum>0,00</contractSum>
+            <currency>
+                <code>RUB</code>
+                <digitalCode>643</digitalCode>
+                <name>Российский рубль</name>
+            </currency>
+            <customerRequirements>
+                <customerRequirement>
+                    <deliveryPlace>Российская Федерация, 428029, Чувашская Республика - Чувашия, Чебоксары г, Шумилова, 7 "а", -</deliveryPlace>
+                    <deliveryTerm>По заявкам заказчика с момента подписания договора до 31.12.2013 г. или до полного выполнения обязательств обеими сторонами</deliveryTerm>
+                    <guaranteeApp>
+                        <amount>1 008,00</amount>
+                        <isBail>false</isBail>
+                        <bik>049706001</bik>
+                        <personalAccount>20266БЯ1452</personalAccount>
+                        <settlementAccount>40701810800003000017</settlementAccount>
+                    </guaranteeApp>
+                    <maxPrice>50 400,00</maxPrice>
+                    <maxPricePercent>1.0</maxPricePercent>
+                    <organization>
+                        <regNumber>03153000783</regNumber>
+                        <contactPerson>
+                            <lastName>Скочилова</lastName>
+                            <firstName>Светлана</firstName>
+                            <middleName>Ивановна</middleName>
+                        </contactPerson>
+                        <email>skochilova_10@mail.ru</email>
+                        <factualAddress>
+                            <addressLine>Российская Федерация, 428029, Чувашская Республика - Чувашия, Чебоксары г, Шумилова, 7 "а", -</addressLine>
+                            <building>7 "а"</building>
+                            <city>
+                                <fullName>Чебоксары г</fullName>
+                                <kladrCode>21000001000</kladrCode>
+                                <kladrType>C</kladrType>
+                            </city>
+                            <country>
+                                <countryCode>643</countryCode>
+                                <countryFullName>Российская Федерация</countryFullName>
+                            </country>
+                            <filledManually>false</filledManually>
+                            <fullAddress>Российская Федерация, 428029, Чувашская Республика - Чувашия, Чебоксары г, Шумилова, 7 "а", -</fullAddress>
+                            <office>-</office>
+                            <okato>
+                                <name>Чебоксары</name>
+                                <okato>97401000000</okato>
+                            </okato>
+                            <region>
+                                <fullName>Чувашская Республика - Чувашия</fullName>
+                                <kladrCode>21000000000</kladrCode>
+                                <kladrType>R</kladrType>
+                            </region>
+                            <shortStreet>Шумилова</shortStreet>
+                            <zip>428029</zip>
+                        </factualAddress>
+                        <fax>+7 (8352) 234692</fax>
+                        <fullName>муниципальное бюджетное дошкольное образовательное учреждение "Детский сад № 83 "Ручеёк" города Чебоксары Чувашской Республики</fullName>
+                        <inn>2128019802</inn>
+                        <kpp>213001001</kpp>
+                        <ogrn>1022101138201</ogrn>
+                        <okfs>
+                            <code>14</code>
+                            <id>5</id>
+                            <name>Муниципальная собственность</name>
+                        </okfs>
+                        <okopf>
+                            <code>73</code>
+                            <fullName>Автономные учреждения</fullName>
+                            <organizationFormType>i73</organizationFormType>
+                            <singularName>Автономное учреждение</singularName>
+                        </okopf>
+                        <okopf2012>
+                            <actual>true</actual>
+                            <code>20903</code>
+                            <parentOkopf>
+                                <actual>true</actual>
+                                <code>20900</code>
+                                <parentOkopf>
+                                    <actual>true</actual>
+                                    <code>20000</code>
+                                    <pluralName>ОРГАНИЗАЦИОННО-ПРАВОВЫЕ ФОРМЫ ЮРИДИЧЕСКИХ ЛИЦ, ЯВЛЯЮЩИХСЯ НЕКОММЕРЧЕСКИМИ ОРГАНИЗАЦИЯМИ</pluralName>
+                                    <singularName>ОРГАНИЗАЦИОННО-ПРАВОВАЯ ФОРМА ЮРИДИЧЕСКОГО ЛИЦА, ЯВЛЯЮЩЕГОСЯ НЕКОММЕРЧЕСКОЙ ОРГАНИЗАЦИЕЙ</singularName>
+                                </parentOkopf>
+                                <pluralName>Учреждения</pluralName>
+                                <singularName>Учреждение</singularName>
+                            </parentOkopf>
+                            <pluralName>Бюджетные учреждения</pluralName>
+                            <singularName>Бюджетное учреждение</singularName>
+                        </okopf2012>
+                        <OKPO>35943130</OKPO>
+                        <OKVED>80.10.1</OKVED>
+                        <organizationForm>Бюджетное учреждение</organizationForm>
+                        <organizationType>
+                            <description>бюджетное учреждение</description>
+                            <id>3</id>
+                            <name>бюджетное учреждение</name>
+                            <organizationCode>03</organizationCode>
+                        </organizationType>
+                        <phone>+7 (8352) 234492</phone>
+                        <postalAddress>Российская Федерация, 428029, Чувашская Республика - Чувашия, Чебоксары г, Шумилова, 7 "а", -</postalAddress>
+                        <shortName>МБДОУ "Детский сад № 83" г. Чебоксары</shortName>
+                        <subordinationType>
+                            <description>Муниципальный уровень</description>
+                            <id>3</id>
+                        </subordinationType>
+                    </organization>
+                    <quantity>Количество поставляемого товара в соответствии с требованиями предъявляемыми к товару, раздела 7 документации об аукционе в электронной форме</quantity>
+                    <quantityNotDefined>false</quantityNotDefined>
+                </customerRequirement>
+            </customerRequirements>
+            <guaranteeAppTotal>1 008,00</guaranteeAppTotal>
+            <maxPrice>50 400,00</maxPrice>
+            <maxPriceDescription>Российский рубль</maxPriceDescription>
+            <maxPriceDescriptionWithCurrency>Российский рубль</maxPriceDescriptionWithCurrency>
+            <maxPricePreDescription></maxPricePreDescription>
+            <maxPriceTypeDescription></maxPriceTypeDescription>
+            <maxPriceXml>50 400,00</maxPriceXml>
+            <notificationFeatures>
+                <notificationFeature>
+                    <enabled>true</enabled>
+                    <placementFeature>
+                        <featureId>9</featureId>
+                        <name>Для субъектов малого предпринимательства</name>
+                        <shortName>MP</shortName>
+                        <type>F</type>
+                    </placementFeature>
+                </notificationFeature>
+                <notificationFeature>
+                    <enabled>false</enabled>
+                    <placementFeature>
+                        <featureId>7836549</featureId>
+                        <name>Преференции на поставку товаров российского и (или) белорусского происхождения (приказ МЭР от 12 мая 2011 г. № 217, от 12 марта 2012 г. N 120 и приказ МЭР от 17.04.2013 г. N 211)</name>
+                        <shortName>RM</shortName>
+                        <type>P</type>
+                        <usage>U</usage>
+                    </placementFeature>
+                    <prefValue>15,00</prefValue>
+                </notificationFeature>
+            </notificationFeatures>
+            <ordinalNumber>1</ordinalNumber>
+            <priceInWord>пятьдесят тысяч четыреста</priceInWord>
+            <priceItemInWord></priceItemInWord>
+            <priceNotSet>false</priceNotSet>
+            <quantityUndefined>false</quantityUndefined>
+            <status>A</status>
+            <subject>Поставка хлеба</subject>
+            <undefQualityPrice>0,00</undefQualityPrice>
+            <products>
+                <product>
+                    <code>1541142</code>
+                    <name>Хлеб из смеси разных сортов ржаной и пшеничной муки формовой улучшенный</name>
+                    <okdpGroups>
+                        <active>true</active>
+                        <createDate>2013-01-12T07:44:01.114+04:00</createDate>
+                        <groupName>Изделия хлебобулочные и мучные кондитерские</groupName>
+                        <groupNumber>23</groupNumber>
+                        <includedProducts>1541000</includedProducts>
+                        <updateDate>2013-01-12T07:44:01.115+04:00</updateDate>
+                    </okdpGroups>
+                </product>
+                <product>
+                    <code>1541310</code>
+                    <name>Изделия булочные из пшеничной муки высшего сорта (масса изделия до 500 г)</name>
+                    <okdpGroups>
+                        <active>true</active>
+                        <createDate>2013-01-12T07:44:01.114+04:00</createDate>
+                        <groupName>Изделия хлебобулочные и мучные кондитерские</groupName>
+                        <groupNumber>23</groupNumber>
+                        <includedProducts>1541000</includedProducts>
+                        <updateDate>2013-01-12T07:44:01.115+04:00</updateDate>
+                    </okdpGroups>
+                </product>
+            </products>
+        </lot>
+    </lots>
+    <modificationStatus>U</modificationStatus>
+    <multiLot>false</multiLot>
+    <needReturnAcceptOperationEvent>false</needReturnAcceptOperationEvent>
+    <notificationCommission>
+        <p1Date>22.07.2013 08:00:00</p1Date>
+        <p2Date>24.07.2013 00:00:00</p2Date>
+        <p3Date>29.07.2013 00:00:00</p3Date>
+    </notificationCommission>
+    <notificationNumber>0315300078313000014</notificationNumber>
+    <notificationPlacement>
+        <deliveryPlaceAll>false</deliveryPlaceAll>
+        <deliveryTermAll>false</deliveryTermAll>
+        <ensureContractAll>false</ensureContractAll>
+        <ensureNotifAll>false</ensureNotifAll>
+        <featuresAll>false</featuresAll>
+        <notificationFeatures>
+            <notificationFeature>
+                <enabled>false</enabled>
+                <placementFeature>
+                    <featureId>9</featureId>
+                    <name>Для субъектов малого предпринимательства</name>
+                    <shortName>MP</shortName>
+                    <type>F</type>
+                </placementFeature>
+            </notificationFeature>
+            <notificationFeature>
+                <enabled>false</enabled>
+                <placementFeature>
+                    <featureId>7836549</featureId>
+                    <name>Преференции на поставку товаров российского и (или) белорусского происхождения (приказ МЭР от 12 мая 2011 г. № 217, от 12 марта 2012 г. N 120 и приказ МЭР от 17.04.2013 г. N 211)</name>
+                    <shortName>RM</shortName>
+                    <type>P</type>
+                    <usage>U</usage>
+                </placementFeature>
+                <prefValue>15,00</prefValue>
+            </notificationFeature>
+        </notificationFeatures>
+    </notificationPlacement>
+    <okfDate1>12.07.2013 09:20:33</okfDate1>
+    <okfDate2>21.07.2013 08:00:00</okfDate2>
+    <order>
+        <placementStage>AP</placementStage>
+        <placerOrgType>Z</placerOrgType>
+        <placerOrganization>
+            <regNumber>03153000783</regNumber>
+            <contactPerson>
+                <lastName>Скочилова</lastName>
+                <firstName>Светлана</firstName>
+                <middleName>Ивановна</middleName>
+            </contactPerson>
+            <email>skochilova_10@mail.ru</email>
+            <factualAddress>
+                <addressLine>Российская Федерация, 428029, Чувашская Республика - Чувашия, Чебоксары г, Шумилова, 7 "а", -</addressLine>
+                <building>7 "а"</building>
+                <city>
+                    <fullName>Чебоксары г</fullName>
+                    <kladrCode>21000001000</kladrCode>
+                    <kladrType>C</kladrType>
+                </city>
+                <country>
+                    <countryCode>643</countryCode>
+                    <countryFullName>Российская Федерация</countryFullName>
+                </country>
+                <filledManually>false</filledManually>
+                <fullAddress>Российская Федерация, 428029, Чувашская Республика - Чувашия, Чебоксары г, Шумилова, 7 "а", -</fullAddress>
+                <office>-</office>
+                <okato>
+                    <name>Чебоксары</name>
+                    <okato>97401000000</okato>
+                </okato>
+                <region>
+                    <fullName>Чувашская Республика - Чувашия</fullName>
+                    <kladrCode>21000000000</kladrCode>
+                    <kladrType>R</kladrType>
+                </region>
+                <shortStreet>Шумилова</shortStreet>
+                <zip>428029</zip>
+            </factualAddress>
+            <fax>+7 (8352) 234692</fax>
+            <fullName>муниципальное бюджетное дошкольное образовательное учреждение "Детский сад № 83 "Ручеёк" города Чебоксары Чувашской Республики</fullName>
+            <inn>2128019802</inn>
+            <kpp>213001001</kpp>
+            <ogrn>1022101138201</ogrn>
+            <okfs>
+                <code>14</code>
+                <id>5</id>
+                <name>Муниципальная собственность</name>
+            </okfs>
+            <okopf>
+                <code>73</code>
+                <fullName>Автономные учреждения</fullName>
+                <organizationFormType>i73</organizationFormType>
+                <singularName>Автономное учреждение</singularName>
+            </okopf>
+            <okopf2012>
+                <actual>true</actual>
+                <code>20903</code>
+                <parentOkopf>
+                    <actual>true</actual>
+                    <code>20900</code>
+                    <parentOkopf>
+                        <actual>true</actual>
+                        <code>20000</code>
+                        <pluralName>ОРГАНИЗАЦИОННО-ПРАВОВЫЕ ФОРМЫ ЮРИДИЧЕСКИХ ЛИЦ, ЯВЛЯЮЩИХСЯ НЕКОММЕРЧЕСКИМИ ОРГАНИЗАЦИЯМИ</pluralName>
+                        <singularName>ОРГАНИЗАЦИОННО-ПРАВОВАЯ ФОРМА ЮРИДИЧЕСКОГО ЛИЦА, ЯВЛЯЮЩЕГОСЯ НЕКОММЕРЧЕСКОЙ ОРГАНИЗАЦИЕЙ</singularName>
+                    </parentOkopf>
+                    <pluralName>Учреждения</pluralName>
+                    <singularName>Учреждение</singularName>
+                </parentOkopf>
+                <pluralName>Бюджетные учреждения</pluralName>
+                <singularName>Бюджетное учреждение</singularName>
+            </okopf2012>
+            <OKPO>35943130</OKPO>
+            <OKVED>80.10.1</OKVED>
+            <organizationForm>Бюджетное учреждение</organizationForm>
+            <organizationType>
+                <description>бюджетное учреждение</description>
+                <id>3</id>
+                <name>бюджетное учреждение</name>
+                <organizationCode>03</organizationCode>
+            </organizationType>
+            <phone>+7 (8352) 234492</phone>
+            <postalAddress>Российская Федерация, 428029, Чувашская Республика - Чувашия, Чебоксары г, Шумилова, 7 "а", -</postalAddress>
+            <shortName>МБДОУ "Детский сад № 83" г. Чебоксары</shortName>
+            <subordinationType>
+                <description>Муниципальный уровень</description>
+                <id>3</id>
+            </subordinationType>
+        </placerOrganization>
+        <publishDate>12.07.2013 09:20:33</publishDate>
+    </order>
+    <orderName>Поставка хлеба</orderName>
+    <placingWay>
+        <code>EF</code>
+        <gosType>3</gosType>
+        <name>Открытый аукцион в электронной форме</name>
+        <placingWayId>11</placingWayId>
+        <title>Открытый аукцион в электронной форме</title>
+        <type>EF</type>
+    </placingWay>
+    <publishDate>12.07.2013 09:20:33</publishDate>
+    <status>P</status>
+    <versionNumber>1</versionNumber>
+    <etp>
+        <actual>true</actual>
+        <address>http://roseltorg.ru</address>
+        <cabinetUrl>https://etp.roseltorg.ru/authentication/login?eds</cabinetUrl>
+        <code>ETP_EETP</code>
+        <description>ОАО «Единая электронная торговая площадка»</description>
+        <email>izmenen_po_prozbe_ETP@noname.de</email>
+        <epBusinessPartner>
+            <partnerType>ETP</partnerType>
+            <status>ACTIVE</status>
+        </epBusinessPartner>
+        <hasPublicData>true</hasPublicData>
+        <name>ОАО «ЕЭТП»</name>
+    </etp>
+</notification>

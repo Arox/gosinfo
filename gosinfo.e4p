@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric5 project file for project gosinfo -->
+<!-- Saved: 2013-07-08, 23:51:21 -->
+<!-- Copyright (C) 2013 ,  -->
+<Project version="5.1">
+  <Language>en_US</Language>
+  <Hash>f7f4d175bd5d60403377d51ead020918818adf06</Hash>
+  <ProgLanguage mixed="0">Python2</ProgLanguage>
+  <ProjectType>Django</ProjectType>
+  <Description></Description>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <TranslationPattern>locale/%language%/LC_MESSAGES/django.po</TranslationPattern>
+  <Sources>
+    <Source>readurl.py</Source>
+    <Source>__init__.py</Source>
+    <Source>manage.py</Source>
+    <Source>parsers/utils.py</Source>
+    <Source>parsers/par_roseltorg_failed_auctions.py</Source>
+    <Source>parsers/par_roseltorg_past_petitions.py</Source>
+    <Source>parsers/par_roseltorg_future_competitions.py</Source>
+    <Source>parsers/par_roseltorg_future_auctions.py</Source>
+    <Source>generallibrary.py</Source>
+    <Source>base.py</Source>
+    <Source>urls.py</Source>
+    <Source>view.py</Source>
+    <Source>viewinfo/__init__.py</Source>
+    <Source>viewinfo/tests.py</Source>
+    <Source>viewinfo/views.py</Source>
+    <Source>viewinfo/models.py</Source>
+    <Source>settings.py</Source>
+    <Source>parsers/par_roseltorg_past_auctions.py</Source>
+    <Source>parsers/par_etp_zakazrf_tenders.py</Source>
+    <Source>parsers/par_zakupki_gov_ru.py</Source>
+  </Sources>
+  <Forms/>
+  <Translations/>
+  <Resources/>
+  <Interfaces/>
+  <Others>
+    <Other>parsers/example-gov.txt</Other>
+    <Other>parsers/example-subgov.txt</Other>
+  </Others>
+  <Vcs>
+    <VcsType>None</VcsType>
+    <VcsOptions>
+      <dict>
+        <key>
+          <string>add</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>checkout</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>commit</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>diff</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>export</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>global</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>history</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>log</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>remove</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>status</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>tag</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>update</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+      </dict>
+    </VcsOptions>
+    <VcsOtherData>
+      <dict>
+        <key>
+          <string>standardLayout</string>
+        </key>
+        <value>
+          <bool>True</bool>
+        </value>
+      </dict>
+    </VcsOtherData>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.htm" type="FORMS"/>
+    <FiletypeAssociation pattern="*.html" type="FORMS"/>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.js" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.mo" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.po" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.pot" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py2" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw2" type="SOURCES"/>
+  </FiletypeAssociations>
+</Project>

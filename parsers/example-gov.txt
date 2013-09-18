@@ -1,0 +1,411 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script type="text/javascript">
+    var appRoot = '/pgz';
+</script>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Реестр опубликованных заказов</title>
+ 
+        <link rel="stylesheet" type="text/css" href="/pgz/css/pgz-public.css"/>
+		<link rel="stylesheet" type="text/css" href="/pgz/theme/design-portal.css"/>
+
+        <script src="/pgz/js/utils_fix.js" type="text/javascript"></script>
+        <script src="/pgz/js/public-min.js" type="text/javascript"></script>
+        <script src="/pgz/js/public-bottom-min.js" type="text/javascript"></script>
+
+
+		<script type="text/javascript">try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {}</script>
+
+        
+            <!-- Google analytics -->
+            <script type="text/javascript">
+               
+                      </script>
+        
+
+	</head>
+    <body class="yui-skin-sam public-site" style="margin:0;padding:0;height:100%;">
+	<table id="outerWrapper" width="100%"><tr><td>
+		<div class="flag">
+			<div style="max-width:1650px; min-width:958px; margin: 0px auto;" id="contentAreaDiv">
+		<table style="height: 100%; width:100%" cellpadding="0" cellspacing="0">
+            <tbody>
+				<tr>
+                    <!--<td class="sideColumn">
+                        <table cellspacing="0" cellpadding="0" width="100%" class="icePnlGrd">
+                            <tbody>
+                            <tr class="icePnlGrdRow1">
+                                <td class="icePnlGrdCol">
+                                    <span class="iceOutTxt">&nbsp;</span>
+                                </td>
+                                <td class="icePnlGrdCol shadowLeft">
+                                    <span class="iceOutTxt">&nbsp;</span>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>-->
+					<td class="centerColumn" style="vertical-align:top;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr class="icePnlGrdRow1">
+                                    <td class="icePnlGrdCol1 centerColumnTd">
+ 
+    <table cellspacing="0" cellpadding="0" width="100%" class="icePnlGrd mainHeader" id="j_id57">
+        <tbody>
+            <tr class="icePnlGrdRow1 mainHeaderRow1">
+                <td style="padding:36px 0px 31px 0px; vertical-align:middle;text-align:left;">
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td>
+								<a href="http://zakupki.gov.ru/"><img src="/pgz/img/portal/logo.png" alt=""/></a>
+							</td>
+							<td>
+								<div class="slogan" style="padding-top:0px">Официальный сайт Российской Федерации для размещения</div>
+                                <div class="slogan" style="padding-top:3px">информации о размещении заказов</div>
+							</td>
+						</tr>
+					</table>
+				</td>
+                <td class="icePnlGrdCol mainHeaderCol mainHdrRight" style="padding-top:2px">
+                    <script type="text/javascript">
+    //
+    
+
+    //</script><form id="quickSearchForm" action="/pgz/public/action/search/quick/run" method="get" onsubmit="{var elementsInputs=document.getElementById('quickSearchForm').getElementsByTagName('input');for(var intCounter=0;intCounter&lt;elementsInputs.length;intCounter++){var input=elementsInputs[intCounter];if(input.type=='text'){if(input.value==input.title &amp;&amp; input.style.fontStyle=='italic'){input.value='';input.style.fontStyle='normal';}}}};{var queryString=jQuery('#quickSearchForm').formSerialize(); jQuery('#quickSearchExtId').val(kall(queryString));};return doSearch();"><table cellpadding="0" cellspacing="0" class="icePnlGrd searchArea"><tbody><tr class="icePnlGrdRow1"><td class="search-label">
+                    ПОИСК ПО ЗАКАЗАМ
+                </td></tr><tr class="icePnlGrdRow1"><td class="icePnlGrdCol searchAreaCol1" style="text-align:left;"><div class="search-outer"><label><input class="iceInpTxt quickSearchInput" id="quickSearchInput" maxlength="60" name="currentSearchString" size="15" title="Введите полностью или часть номера извещения, наименования заказа или лота, ИНН Заказчика, полного или сокращенного наименования Заказчика" type="text" value=""/></label><label class="iceCmdLnk"><input class="quickSearchButton" type="submit" value=""/></label></div></td></tr><tr class="icePnlGrdRow1"><td style=" text-align:left;"><table cellpadding="0" cellspacing="0" class="icePnlGrd" width="100%"><tr class="icePnlGrdRow1"><td class="icePnlGrdCol qweqwe" style="padding: 0 5px 0 0 ! important;"><label><input id="useMorphologyCheckboxId" name="useMorphology" onclick="doCheck();" type="checkbox"/></label></td><td class="icePnlGrdCol valignM search-checkbox-label" style="text-align: left;"><span class="iceOutTxt">С учетом всех форм слов</span></td><td class="icePnlGrdCol searchAreaCol2"><a class="iceCmdLnk" href="/pgz/public/action/search/extended/init" style="color: rgb(18, 86, 170); text-decoration:underline;"><span>Расширенный поиск</span></a></td></tr></table></td></tr><tr class="icePnlGrdRow1"><td style="text-align:left;"><table cellpadding="0" cellspacing="0" class="icePnlGrd"><tr class="icePnlGrdRow1"></tr></table></td></tr></tbody></table><input id="quickSearchExtId" name="ext" type="hidden" value=""/><script type="text/javascript">var $j=jQuery.noConflict();$j(document).ready(function(){var elementsInputs=document.getElementById('quickSearchForm').getElementsByTagName('input');for(var intCounter=0;intCounter<elementsInputs.length;intCounter++){var input=elementsInputs[intCounter];if(input.type=='text'){if((input.value=='' || input.value==input.title) && input.title != '' && input.style.fontStyle=='normal'){input.value=input.title;input.style.fontStyle='italic';}}}});</script></form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+                                    </td>
+                                </tr>
+                                <tr class="icePnlGrdRow2">
+                                    <td class="icePnlGrdCol1 centerColumnTd">
+
+<!-- ХАК! Этого стиля быть не должно, cufon должен сам его высчтывать, но почему-то этого не делает, 
+  |  хотя в других местах все работает как надо
+-->
+
+
+
+                                    </td>
+                                </tr>
+                                <tr class="icePnlGrdRow2">
+                                    <td class="icePnlGrdCol1 centerColumnTd" id="white">
+                                        <table cellpadding="0" cellspacing="0" class="icePnlGrd" width="100%">
+                                            <tbody>
+                                                <tr class="icePnlGrdRow1">
+                                                    <td class="icePnlGrdCol leftMenuCol">
+ 
+<table cellpadding="0" cellspacing="0" class="icePnlGrd" width="100%">
+    <tbody>
+    <tr class="icePnlGrdRow2">
+        <td class="icePnlGrdCol paddB10">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="block">
+                <tr>
+                    <td class="leftMenuHeader">
+                        Заказы
+                    </td>
+                </tr>
+                <tr>
+                    <td class="leftMenuContent">
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tbody>
+                            <tr>
+                                <td class="leftMenuCol2">
+                                    <a class="iceCmdLnk" href='/pgz/public/action/search/simple/run'>
+                                        Все заказы
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="leftMenuCol2">
+                                    <a class="iceCmdLnk" href="/pgz/public/action/search/region/init">
+                                        Заказы по регионам
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="leftMenuCol2">
+                                    <a class="iceCmdLnk" href="http://zakupkiold.gov.ru">
+                                        Заказы, опубликованные на Федеральном официальном сайте
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="leftMenuCol2">
+                                    <a class="iceCmdLnk" href="/pgz/public/action/order/plans/registry">
+                                        Планы графики размещения заказов
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="leftMenuCol2">
+                                    <a class="iceCmdLnk" href="/pgz/public/action/plangraphics/run">
+                                        Планы-графики размещения заказов в структурированном виде
+                                    </a>
+                                </td>
+                            </tr>
+                            
+                                <tr>
+                                    <td class="leftMenuCol2">
+                                        <a class="iceCmdLnk" href="https://zakupki.gov.ru/pgz/extegration.jsp"
+                                           target="extegration">
+                                            Загрузка сведений об извещениях и контрактах
+                                        </a>
+                                    </td>
+                                </tr>
+                            
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr class="icePnlGrdRow2">
+        <td class="icePnlGrdCol paddB10">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="block">
+                <tr>
+                    <td class="leftMenuHeader">
+                        Контракты
+                    </td>
+                </tr>
+                <tr>
+                    <td class="leftMenuContent">
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tbody>
+                            <tr>
+                                <td class="leftMenuCol2">
+                                    <a class="iceCmdLnk" href="/pgz/public/action/contracts/search/simple/run">
+                                        Единый реестр государственных и муниципальных контрактов
+                                    </a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                
+                    
+                        <tr>
+                            <td class="leftMenuContent">
+                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tbody>
+                                    <tr>
+                                        <td class="leftMenuCol2">
+                                            <a class="iceCmdLnk" href="http://reestrgk.roskazna.ru/">
+                                                Федеральный реестр контрактов
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    
+                
+            </table>
+        </td>
+    </tr>
+    <tr class="icePnlGrdRow1">
+        <td class="icePnlGrdCol paddB10">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                    <td class="leftMenuHeader">
+                        Реестры
+                    </td>
+                </tr>
+                <tr>
+                    <td class="leftMenuContent">
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tbody>
+                            <tr>
+                                <td class="leftMenuCol2">
+                                    
+                                    <a class="iceCmdLnk" href="/pgz/public/action/organizations/registry">
+                                        Реестр организаций
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="leftMenuCol2">
+                                    <a class="iceCmdLnk" href="/pgz/public/action/search/complaint/run">
+                                        Реестр жалоб с 01.01.2011 г.
+                                    </a>
+                                </td>
+                            </tr>
+                            
+                                
+                                    <tr>
+                                        <td class="leftMenuCol2">
+                                            <a class="iceCmdLnk" href="http://zhaloby-gz.fas.gov.ru/">
+                                                Реестр жалоб ФАС России, Рособоронзаказ по 31.05.2011
+                                            </a>
+                                        </td>
+                                    </tr>
+                                
+                            
+                            <tr>
+                                <td class="leftMenuCol2">
+                                    
+                                        
+                                            <a class="iceCmdLnk" href="http://rnp.fas.gov.ru">
+                                                Реестр недобросовестных поставщиков
+                                            </a>
+                                        
+                                        
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="leftMenuCol2">
+                                    <a class="iceCmdLnk" href="/pgz/public/action/inspection/plans/registry">
+                                        Реестр планов проверок, результатов контроля, опубликованных до  05.04.2013&#160;г.
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="leftMenuCol2">
+                                    <a class="iceCmdLnk" href="/pgz/public/action/check/plans/registry">
+                                        Реестр планов проверок с  05.04.2013&#160;г.
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="leftMenuCol2">
+                                    <a class="iceCmdLnk" href="/pgz/public/action/inspection/result/register/">
+                                        Реестр результатов контроля (Решения, предписания, акты) с  05.04.2013&#160;г.
+                                    </a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+
+														<img src="/pgz/img/spacer.gif" width="267" height="1"/>
+													</td>
+													<td>
+														<img src="/pgz/img/spacer.gif" width="1" height="900"/>
+													</td>
+                                                    <td class="icePnlGrdCol mainPageCol paddL10">
+                                                        
+                                                        <span id="initiatorIdParam" style="display:none;"></span><span id="initiatorFullNameParam" style="display:none;"></span><script type="text/javascript">
+    //
+
+   
+
+    //</script><div id="searchResultContainer"><table cellpadding="0" cellspacing="0" class="width100"><tbody><tr><td class="aRight" valign="middle">&nbsp;
+                        </td></tr><tr><td><table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td><table cellpadding="0" cellspacing="0"><tbody><tr><td class="navigationLineSelectedElement_Top" height="4px"><span style="font-size: 1px;">&nbsp;</span></td></tr><tr><td class="navigationLineSelectedElement" valign="top"><span class="iceOutTxt" style="font-weight: bold; white-space: nowrap; ">Подача заявок (64815)</span></td></tr></tbody></table></td><td><table cellpadding="0" cellspacing="0"><tbody><tr><td height="4px"/></tr><tr><td class="navigationLineElement"><a class="iceCmdLnk" href="javascript:" onclick="changeTab('CW');return false;"><span style="font-weight: bold; white-space: nowrap; ">Работа комиссии</span></a></td></tr></tbody></table></td><td></td><td></td><td><table cellpadding="0" cellspacing="0"><tbody><tr><td height="4px"/></tr><tr><td class="navigationLineElement"><a class="iceCmdLnk" href="javascript:" onclick="changeTab('AS');return false;"><span style="font-weight: bold; white-space: nowrap; ">Все этапы</span></a></td></tr></tbody></table></td><td class="icePnlTbSetSpcr pgzPnlTabSetSpcr" width="100%">&nbsp;
+                            </td></tr></tbody></table></td></tr><tr><td class="icePnlTbSetCnt pgzPnlTabSetCnt"><script type="text/javascript">
+//
+
+
+
+ 
+//</script><img alt="" class="iceGphImg" src="/pgz/img/page_white_get.png" style="border: medium none; margin-left: 3px; margin-right: 3px;"/><a class="iceCmdLnk f11" href="javascript:" onclick="exportResult();return false;" style="font-size:11px"><span>Выгрузка результатов поиска</span></a><img id="id2b0a2a24_e697_4ff0_9509_b2dcedbd430e" class="iceGphImg" alt="" style="padding-left:2px;" src="/pgz/theme/css-images/help.png"/><script type="text/javascript">var $j=jQuery.noConflict();$j(document).ready(function(){$j('#id2b0a2a24_e697_4ff0_9509_b2dcedbd430e').qtip({content: 'Выгрузка результатов поиска доступна с 0:00 до 23:00 по московскому времени. Выгрузка ограничена 500 записями реестра',position:{target: 'mouse', adjust: {mouse: true, screen: true}},api: {onRender: function(){$j('#id2b0a2a24_e697_4ff0_9509_b2dcedbd430e').bind('mousedown', this.hide); $j('#id2b0a2a24_e697_4ff0_9509_b2dcedbd430e').bind('#keydown', this.hide);}}});});</script><table cellspacing="0" class="searchResultTable iceDatTbl" width="100%"><thead><tr><th class="searchResultTableHdr searchResultTableHeader"><table class="width100p"><tr><td class="aLeft paddL20"><img id="id30dbd54b_7f55_481d_a4d6_95e11a550bb2" class="iceGphImg" alt="" style="padding-left:2px;" src="/pgz/theme/css-images/help.png"/><script type="text/javascript">var $j=jQuery.noConflict();$j(document).ready(function(){$j('#id30dbd54b_7f55_481d_a4d6_95e11a550bb2').qtip({content: 'В данной колонке отображаются ссылки, сигнализирующие о наличии  по данному заказу: особенностей размещения заказа, преимуществ, нарушений, новых событий, изменений, разъяснений или протоколов.',position:{target: 'mouse', adjust: {mouse: true, screen: true}},api: {onRender: function(){$j('#id30dbd54b_7f55_481d_a4d6_95e11a550bb2').bind('mousedown', this.hide); $j('#id30dbd54b_7f55_481d_a4d6_95e11a550bb2').bind('#keydown', this.hide);}}});});</script></td></tr></table></th><th class="searchResultTableHdr searchResultTableHeader"><table style="width:auto;"><tr><td><span class="iceOutTxt" style="font-weight:bold;font-size:12px;" id="id0b71b9b7_50dd_4b52_8bf6_f2c126fcc864">Реквизиты заказа</span></td></tr></table></th><th class="searchResultTableHdr searchResultTableHeader iceDatTblColHdr"><table style="width:auto;"><tr><td><table><tbody><tr><td><a href="javascript:" onclick="sortTab('publishDate', 'false');return false;" class="iceCmdSrtHdr"><span class="iceOutTxt" id="id11f3ba8a_0371_4a73_8b0d_7d0f3696beb7">Опубликовано</span></a></td></tr><tr><td><div class="sortIcon"/></td></tr></tbody></table></td><td><img id="id316f34ad_3454_4b19_ba64_c0c0f6a42ff8" class="iceGphImg" alt="" style="padding-left:2px;" src="/pgz/theme/css-images/help.png"/><script type="text/javascript">var $j=jQuery.noConflict();$j(document).ready(function(){$j('#id316f34ad_3454_4b19_ba64_c0c0f6a42ff8').qtip({content: 'Дата публикации первой редакции извещения по местному времени организации, размещающей заказ (по местному времени пользователя).',position:{target: 'mouse', adjust: {mouse: true, screen: true}},api: {onRender: function(){$j('#id316f34ad_3454_4b19_ba64_c0c0f6a42ff8').bind('mousedown', this.hide); $j('#id316f34ad_3454_4b19_ba64_c0c0f6a42ff8').bind('#keydown', this.hide);}}});});</script></td></tr></table></th><th class="searchResultTableHdr searchResultTableHeader iceDatTblColHdr"><table style="width:auto;"><tr><td><table><tbody><tr><td><a href="javascript:" onclick="sortTab('contractPrice', 'false');return false;" class="iceCmdSrtHdr"><span class="iceOutTxt" id="id7aee5c77_5334_4543_aa07_f9d30e8c3e2d">Начальная цена</span></a></td></tr><tr><td><div class="sortIcon"/></td></tr></tbody></table></td><td><img id="id2f2beb4c_e4ba_41fc_8899_8a5a4c584596" class="iceGphImg" alt="" style="padding-left:2px;" src="/pgz/theme/css-images/help.png"/><script type="text/javascript">var $j=jQuery.noConflict();$j(document).ready(function(){$j('#id2f2beb4c_e4ba_41fc_8899_8a5a4c584596').qtip({content: 'Для заказов, начальная (максимальная) цена которых указана в российских рублях, наименование валюты не отображается.',position:{target: 'mouse', adjust: {mouse: true, screen: true}},api: {onRender: function(){$j('#id2f2beb4c_e4ba_41fc_8899_8a5a4c584596').bind('mousedown', this.hide); $j('#id2f2beb4c_e4ba_41fc_8899_8a5a4c584596').bind('#keydown', this.hide);}}});});</script></td></tr></table></th><th class="searchResultTableHdr searchResultTableHeader iceDatTblColHdr"><table style="width:auto;"><tr><td><table><tbody><tr><td><a href="javascript:" onclick="sortTab('lastEventDate', 'false');return false;" class="iceCmdSrtHdr"><span class="iceOutTxt nobr">Последнее событие при</span><br/><span class="iceOutTxt nobr">размещении заказа</span></a></td></tr><tr><td><div class="sortIcon iceCmdSrtHdrDesc"/></td></tr></tbody></table></td><td><img id="id47ba217e_56a9_4183_b94e_4eb38a50234a" class="iceGphImg" alt="" style="padding-left:2px;" src="/pgz/theme/css-images/help.png"/><script type="text/javascript">var $j=jQuery.noConflict();$j(document).ready(function(){$j('#id47ba217e_56a9_4183_b94e_4eb38a50234a').qtip({content: 'К событиям заказа относятся публикация извещения, изменений документации, разъяснений в ней и протоколов, отказ от размещения заказа, отмена протоколов, переход заказа на другой этап.',position:{target: 'mouse', adjust: {mouse: true, screen: true}},api: {onRender: function(){$j('#id47ba217e_56a9_4183_b94e_4eb38a50234a').bind('mousedown', this.hide); $j('#id47ba217e_56a9_4183_b94e_4eb38a50234a').bind('#keydown', this.hide);}}});});</script></td></tr></table></th></tr></thead><tbody><tr class="iceDatTblRow searchResultTableRow searchResultRow"><td class="iceDatTblCol searchResultTableCol searchResultColumn"><table class="tableColumn70"><tr><td><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156671" onclick="viewOrderInfo('events_journal/show?notificationId=6156671');return false;"><span id="id8106dd4b_14e7_4811_b395_e32cac9c4746">Новое!</span></a></td></tr><tr><td><span id="id4406e495_f11e_448d_98af_3ffafd61c959"><script type="text/javascript">var $j=jQuery.noConflict();$j(document).ready(function(){$j('#id4406e495_f11e_448d_98af_3ffafd61c959').qtip({content: 'Субъекты малого предпринимательства могут участвовать и в других торгах и запросах котировок.',position:{target: 'mouse', adjust: {mouse: true, screen: true}},api: {onRender: function(){$j('#id4406e495_f11e_448d_98af_3ffafd61c959').bind('mousedown', this.hide); $j('#id4406e495_f11e_448d_98af_3ffafd61c959').bind('#keydown', this.hide);}}});});</script><span>Для малого бизнеса</span></span></td></tr></table></td><td align="left" class="iceDatTblCol searchResultTableCol searchResultColumn aLeft" style="text-align: left; width:100%"><table cellpadding="0" cellspacing="0" style="text-align: left;"><tbody><tr><td colspan="2"><span class="blueBold">Запрос котировок № </span><a class="iceCmdLnk" href="/pgz/printForm?type=NOTIFICATION&id=6156671" onclick="showNotificationPrintForm(6156671);return false;"><span>0319200025513000018</span></a></td></tr><tr><td class="paddR10"><table><tr><td class="width100p" style="vertical-align:top; text-align: left;"><div><div><table class="dropDownTable"><tbody><tr><td style="text-align:left;"><a class="iceOutLnk" href="/pgz/public/action/orders/info/common_info/show?notificationId=6156671" onclick="viewOrderInfo('common_info/show?notificationId=6156671');return false;">запрос котировок</a></td><td class="dropDownLinkTd"><a style="color:#FFFFFF;" onmouseout="getElementById('id53f8a8af_d155_4b52_8aa3_2ed74c1b1df9').className = 'linkMenuArrow';" onmouseover="getElementById('id53f8a8af_d155_4b52_8aa3_2ed74c1b1df9').className = 'linkMenuArrowHighlighted';"><input id="id53f8a8af_d155_4b52_8aa3_2ed74c1b1df9" type="image" src="/pgz/img/link_menu_arrow.gif" class="linkMenuArrow"/></a></td></tr></tbody></table></div><div class="dropdownPopupMenuPanel iceMnuPopVrtTopSubMenu" id="idd6f86453_0805_4540_8c80_8e7e900e5f8c"><script type="text/javascript">at_attach("id53f8a8af_d155_4b52_8aa3_2ed74c1b1df9", "idd6f86453_0805_4540_8c80_8e7e900e5f8c", "click", "x", "pointer");</script><div><table style="text-align:left;"><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/common_info/show?notificationId=6156671" onclick="viewOrderInfo('common_info/show?notificationId=6156671');return false;"><span class="iceMnuItmLabel" id="id9cb1249c_59b9_4b56_8ca4_943603815329">Сведения заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/order_document_list_info/show?notificationId=6156671" onclick="viewOrderInfo('order_document_list_info/show?notificationId=6156671');return false;"><span class="iceMnuItmLabel" id="id0734a458_ad0a_4449_ae49_01322f8512b1">Документы заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/changes_and_explanations/show?notificationId=6156671" onclick="viewOrderInfo('changes_and_explanations/show?notificationId=6156671');return false;"><span class="iceMnuItmLabel" id="idad2c61cd_ecfd_4c70_88da_e1ae83fb504b">Изменения и разъяснения</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156671" onclick="viewOrderInfo('events_journal/show?notificationId=6156671');return false;"><span class="iceMnuItmLabel" id="id738a47c7_4a80_47b8_a885_34c564099879">Журнал событий</span></a></td></tr><tr><td><div class="dropdownPopupMenuSeparator"/></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/printForm?type=NOTIFICATION&id=6156671" onclick="showNotificationPrintForm(6156671);return false;"><span class="iceMnuItmLabel" id="id2aa38d3f_ab0c_4d45_9a0f_fd865ace9fd4">Печатная форма извещения</span></a></td></tr></table></div></div></div></td></tr></table></td></tr><tr><td><span class="iceOutTxt" style="padding-right:3px;" id="id58519772_f35d_4650_b9b6_f5782f3c25f5">Организация, размещающая заказ:</span><a class="iceCmdLnk" href="/pgz/public/action/organization/view?organizationId=730705" onclick="window.open('/pgz/public/action/organization/view?organizationId=730705');return false;"><span>Краевое государственное бюджетное учреждение культуры &quot;Государственный центр народного творчества Красноярского края&quot;</span></a><br/></td></tr></tbody></table></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><span>23.05.2013</span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn105"><span>204&nbsp;000,00 </span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156671" onclick="viewOrderInfo('events_journal/show?notificationId=6156671');return false;"><span>23.05.2013</span></a></td></tr><tr class="iceDatTblRow searchResultTableRow searchResultRow"><td class="iceDatTblCol searchResultTableCol searchResultColumn"><table class="tableColumn70"><tr><td><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156515" onclick="viewOrderInfo('events_journal/show?notificationId=6156515');return false;"><span id="id6ba8eaac_ecc9_4648_877b_c771b2d92585">Новое!</span></a></td></tr></table></td><td align="left" class="iceDatTblCol searchResultTableCol searchResultColumn aLeft" style="text-align: left; width:100%"><table cellpadding="0" cellspacing="0" style="text-align: left;"><tbody><tr><td colspan="2"><span class="blueBold">Запрос котировок № </span><a class="iceCmdLnk" href="/pgz/printForm?type=NOTIFICATION&id=6156515" onclick="showNotificationPrintForm(6156515);return false;"><span>0365100010413000445</span></a></td></tr><tr><td class="paddR10"><table><tr><td class="width100p" style="vertical-align:top; text-align: left;"><div><div><table class="dropDownTable"><tbody><tr><td style="text-align:left;"><a class="iceOutLnk" href="/pgz/public/action/orders/info/common_info/show?notificationId=6156515" onclick="viewOrderInfo('common_info/show?notificationId=6156515');return false;">Поставка, сборка и  установка металлических стеллажей  для общежитий ТПУ.</a></td><td class="dropDownLinkTd"><a style="color:#FFFFFF;" onmouseout="getElementById('idec85dced_2b1c_4eec_a152_3fdc17114a3a').className = 'linkMenuArrow';" onmouseover="getElementById('idec85dced_2b1c_4eec_a152_3fdc17114a3a').className = 'linkMenuArrowHighlighted';"><input id="idec85dced_2b1c_4eec_a152_3fdc17114a3a" type="image" src="/pgz/img/link_menu_arrow.gif" class="linkMenuArrow"/></a></td></tr></tbody></table></div><div class="dropdownPopupMenuPanel iceMnuPopVrtTopSubMenu" id="id978d02e3_c693_448b_b7bb_484a18bb614b"><script type="text/javascript">at_attach("idec85dced_2b1c_4eec_a152_3fdc17114a3a", "id978d02e3_c693_448b_b7bb_484a18bb614b", "click", "x", "pointer");</script><div><table style="text-align:left;"><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/common_info/show?notificationId=6156515" onclick="viewOrderInfo('common_info/show?notificationId=6156515');return false;"><span class="iceMnuItmLabel" id="id1170c9cc_99d5_48fb_a30c_4bac3caa28d1">Сведения заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/order_document_list_info/show?notificationId=6156515" onclick="viewOrderInfo('order_document_list_info/show?notificationId=6156515');return false;"><span class="iceMnuItmLabel" id="ide93a00df_bf0e_46cb_b94c_aa43328ef2a3">Документы заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/changes_and_explanations/show?notificationId=6156515" onclick="viewOrderInfo('changes_and_explanations/show?notificationId=6156515');return false;"><span class="iceMnuItmLabel" id="id0db8a288_624f_4f46_9e66_dd814d47b3e1">Изменения и разъяснения</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156515" onclick="viewOrderInfo('events_journal/show?notificationId=6156515');return false;"><span class="iceMnuItmLabel" id="id071ccf85_cc0c_4c0a_9e97_78f48d9adf79">Журнал событий</span></a></td></tr><tr><td><div class="dropdownPopupMenuSeparator"/></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/printForm?type=NOTIFICATION&id=6156515" onclick="showNotificationPrintForm(6156515);return false;"><span class="iceMnuItmLabel" id="idcf13f3ca_ad73_4e2f_9f4d_61628a2fa592">Печатная форма извещения</span></a></td></tr></table></div></div></div></td></tr></table></td></tr><tr><td><span class="iceOutTxt" style="padding-right:3px;" id="idda406980_44b6_4bd1_90f7_4c53ec22c6f2">Организация, размещающая заказ:</span><a class="iceCmdLnk" href="/pgz/public/action/organization/view?organizationId=719759" onclick="window.open('/pgz/public/action/organization/view?organizationId=719759');return false;"><span>федеральное государственное бюджетное образовательное учреждение высшего профессионального образования &quot;Национальный исследовательский Томский политехнический университет&quot;</span></a><br/></td></tr></tbody></table></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><span>23.05.2013</span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn105"><span>156&nbsp;885,00 </span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156515" onclick="viewOrderInfo('events_journal/show?notificationId=6156515');return false;"><span>23.05.2013</span></a></td></tr><tr class="iceDatTblRow searchResultTableRow searchResultRow"><td class="iceDatTblCol searchResultTableCol searchResultColumn"><table class="tableColumn70"><tr><td><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156750" onclick="viewOrderInfo('events_journal/show?notificationId=6156750');return false;"><span id="id05cb5df1_0eb9_4168_9ff9_b40fe7a4d211">Новое!</span></a></td></tr></table></td><td align="left" class="iceDatTblCol searchResultTableCol searchResultColumn aLeft" style="text-align: left; width:100%"><table cellpadding="0" cellspacing="0" style="text-align: left;"><tbody><tr><td colspan="2"><span class="blueBold">Запрос котировок № </span><a class="iceCmdLnk" href="/pgz/printForm?type=NOTIFICATION&id=6156750" onclick="showNotificationPrintForm(6156750);return false;"><span>0120300006513000073</span></a></td></tr><tr><td class="paddR10"><table><tr><td class="width100p" style="vertical-align:top; text-align: left;"><div><div><table class="dropDownTable"><tbody><tr><td style="text-align:left;"><a class="iceOutLnk" href="/pgz/public/action/orders/info/common_info/show?notificationId=6156750" onclick="viewOrderInfo('common_info/show?notificationId=6156750');return false;">на проведение технического обследования  и оформление заключения по материалам обследования состояния несущих конструкций многоквартирного жилого дома, расположенного по адресу: г.Уссурийск, ул. Краснознаменная, 118</a></td><td class="dropDownLinkTd"><a style="color:#FFFFFF;" onmouseout="getElementById('idb362fb46_6cc4_4cec_b620_6a4a794b6696').className = 'linkMenuArrow';" onmouseover="getElementById('idb362fb46_6cc4_4cec_b620_6a4a794b6696').className = 'linkMenuArrowHighlighted';"><input id="idb362fb46_6cc4_4cec_b620_6a4a794b6696" type="image" src="/pgz/img/link_menu_arrow.gif" class="linkMenuArrow"/></a></td></tr></tbody></table></div><div class="dropdownPopupMenuPanel iceMnuPopVrtTopSubMenu" id="idc0ed58a7_90a8_4af7_a899_78c07581100f"><script type="text/javascript">at_attach("idb362fb46_6cc4_4cec_b620_6a4a794b6696", "idc0ed58a7_90a8_4af7_a899_78c07581100f", "click", "x", "pointer");</script><div><table style="text-align:left;"><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/common_info/show?notificationId=6156750" onclick="viewOrderInfo('common_info/show?notificationId=6156750');return false;"><span class="iceMnuItmLabel" id="id641ea680_75c8_4219_b77c_630d453ee6b6">Сведения заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/order_document_list_info/show?notificationId=6156750" onclick="viewOrderInfo('order_document_list_info/show?notificationId=6156750');return false;"><span class="iceMnuItmLabel" id="id97995cfd_2db8_46db_8162_b6b90d0c71f5">Документы заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/changes_and_explanations/show?notificationId=6156750" onclick="viewOrderInfo('changes_and_explanations/show?notificationId=6156750');return false;"><span class="iceMnuItmLabel" id="id149f0d96_7d01_461f_ae97_351b876512ca">Изменения и разъяснения</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156750" onclick="viewOrderInfo('events_journal/show?notificationId=6156750');return false;"><span class="iceMnuItmLabel" id="id95249c84_b903_46cb_ac8e_419e9cd3d657">Журнал событий</span></a></td></tr><tr><td><div class="dropdownPopupMenuSeparator"/></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/printForm?type=NOTIFICATION&id=6156750" onclick="showNotificationPrintForm(6156750);return false;"><span class="iceMnuItmLabel" id="id7ba8262a_135e_4480_aa0e_f41e1040ac26">Печатная форма извещения</span></a></td></tr></table></div></div></div></td></tr></table></td></tr><tr><td><span class="iceOutTxt" style="padding-right:3px;" id="idf38e2d22_267f_4663_9d38_20964305069f">Организация, размещающая заказ:</span><a class="iceCmdLnk" href="/pgz/public/action/organization/view?organizationId=718069" onclick="window.open('/pgz/public/action/organization/view?organizationId=718069');return false;"><span>Администрация Уссурийского городского округа</span></a><br/></td></tr></tbody></table></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><span>23.05.2013</span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn105"><span>6&nbsp;266,99 </span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156750" onclick="viewOrderInfo('events_journal/show?notificationId=6156750');return false;"><span>23.05.2013</span></a></td></tr><tr class="iceDatTblRow searchResultTableRow searchResultRow"><td class="iceDatTblCol searchResultTableCol searchResultColumn"><table class="tableColumn70"><tr><td><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6139239" onclick="viewOrderInfo('events_journal/show?notificationId=6139239');return false;"><span id="idc80069b2_12cb_4915_a081_98a586d20bde">Новое!</span></a></td></tr></table></td><td align="left" class="iceDatTblCol searchResultTableCol searchResultColumn aLeft" style="text-align: left; width:100%"><table cellpadding="0" cellspacing="0" style="text-align: left;"><tbody><tr><td colspan="2"><span class="blueBold">Запрос котировок № </span><a class="iceCmdLnk" href="/pgz/printForm?type=NOTIFICATION&id=6139239" onclick="showNotificationPrintForm(6139239);return false;"><span>0851300003213000129</span></a></td></tr><tr><td class="paddR10"><table><tr><td class="width100p" style="vertical-align:top; text-align: left;"><div><div><table class="dropDownTable"><tbody><tr><td style="text-align:left;"><a class="iceOutLnk" href="/pgz/public/action/orders/info/common_info/show?notificationId=6139239" onclick="viewOrderInfo('common_info/show?notificationId=6139239');return false;">Поставка цветов и цветочной продукции в количестве 1560 штук. </a></td><td class="dropDownLinkTd"><a style="color:#FFFFFF;" onmouseout="getElementById('id2e118bdd_50b2_41a7_b089_68c796e99c79').className = 'linkMenuArrow';" onmouseover="getElementById('id2e118bdd_50b2_41a7_b089_68c796e99c79').className = 'linkMenuArrowHighlighted';"><input id="id2e118bdd_50b2_41a7_b089_68c796e99c79" type="image" src="/pgz/img/link_menu_arrow.gif" class="linkMenuArrow"/></a></td></tr></tbody></table></div><div class="dropdownPopupMenuPanel iceMnuPopVrtTopSubMenu" id="id3cd67d45_bcb2_48d4_8277_807f36d7e9d8"><script type="text/javascript">at_attach("id2e118bdd_50b2_41a7_b089_68c796e99c79", "id3cd67d45_bcb2_48d4_8277_807f36d7e9d8", "click", "x", "pointer");</script><div><table style="text-align:left;"><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/common_info/show?notificationId=6139239" onclick="viewOrderInfo('common_info/show?notificationId=6139239');return false;"><span class="iceMnuItmLabel" id="idd636a834_aa22_4584_a562_347aef2bdc5a">Сведения заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/order_document_list_info/show?notificationId=6139239" onclick="viewOrderInfo('order_document_list_info/show?notificationId=6139239');return false;"><span class="iceMnuItmLabel" id="id6d70a082_8a7b_4eb2_904d_c4d6dbe7d133">Документы заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/changes_and_explanations/show?notificationId=6139239" onclick="viewOrderInfo('changes_and_explanations/show?notificationId=6139239');return false;"><span class="iceMnuItmLabel" id="idc39b0f02_00bb_4985_b3c4_dbdc5aef0b5b">Изменения и разъяснения</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/events_journal/show?notificationId=6139239" onclick="viewOrderInfo('events_journal/show?notificationId=6139239');return false;"><span class="iceMnuItmLabel" id="idc6c1356f_a1ca_42f5_b487_bd3497b3c217">Журнал событий</span></a></td></tr><tr><td><div class="dropdownPopupMenuSeparator"/></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/printForm?type=NOTIFICATION&id=6139239" onclick="showNotificationPrintForm(6139239);return false;"><span class="iceMnuItmLabel" id="idf8bc09f4_8af9_47fc_a1b0_59d290010d34">Печатная форма извещения</span></a></td></tr></table></div></div></div></td></tr></table></td></tr><tr><td><span class="iceOutTxt" style="padding-right:3px;" id="idaf606092_a9ab_48dd_aa21_0f773da4a062">Организация, размещающая заказ:</span><a class="iceCmdLnk" href="/pgz/public/action/organization/view?organizationId=1682662" onclick="window.open('/pgz/public/action/organization/view?organizationId=1682662');return false;"><span>муниципальное казенное учреждение города Новосибирска &quot;Хозяйственное управление&quot;</span></a><br/></td></tr></tbody></table></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><span>23.05.2013</span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn105"><span>195&nbsp;097,50 </span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6139239" onclick="viewOrderInfo('events_journal/show?notificationId=6139239');return false;"><span>23.05.2013</span></a></td></tr><tr class="iceDatTblRow searchResultTableRow searchResultRow"><td class="iceDatTblCol searchResultTableCol searchResultColumn"><table class="tableColumn70"><tr><td><a class="iceCmdLnk" href="/pgz/public/action/orders/info/changes_and_explanations/show?notificationId=6157032" onclick="viewOrderInfo('changes_and_explanations/show?notificationId=6157032');return false;"><span id="id03583337_7a1e_407a_80f5_8101be740d3b">Изменения</span></a></td></tr><tr><td><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6157032" onclick="viewOrderInfo('events_journal/show?notificationId=6157032');return false;"><span id="id42af686f_42d7_43fd_ba1d_e1e75cabce5e">Новое!</span></a></td></tr></table></td><td align="left" class="iceDatTblCol searchResultTableCol searchResultColumn aLeft" style="text-align: left; width:100%"><table cellpadding="0" cellspacing="0" style="text-align: left;"><tbody><tr><td colspan="2"><span class="blueBold">Запрос котировок № </span><a class="iceCmdLnk" href="/pgz/printForm?type=NOTIFICATION&id=6157032" onclick="showNotificationPrintForm(6157032);return false;"><span>0119200000113002201</span></a></td></tr><tr><td class="paddR10"><table><tr><td class="width100p" style="vertical-align:top; text-align: left;"><div><div><table class="dropDownTable"><tbody><tr><td style="text-align:left;"><a class="iceOutLnk" href="/pgz/public/action/orders/info/common_info/show?notificationId=6157032" onclick="viewOrderInfo('common_info/show?notificationId=6157032');return false;">№ 773/13к «На право оказания образовательных услуг безработным гражданам по профессии (специальности) «Машинист (кочегар) котельной» для нужд КГКУ «Центр занятости населения Богучанского района».</a></td><td class="dropDownLinkTd"><a style="color:#FFFFFF;" onmouseout="getElementById('id1e437788_debb_4376_8ec7_331fbb652538').className = 'linkMenuArrow';" onmouseover="getElementById('id1e437788_debb_4376_8ec7_331fbb652538').className = 'linkMenuArrowHighlighted';"><input id="id1e437788_debb_4376_8ec7_331fbb652538" type="image" src="/pgz/img/link_menu_arrow.gif" class="linkMenuArrow"/></a></td></tr></tbody></table></div><div class="dropdownPopupMenuPanel iceMnuPopVrtTopSubMenu" id="id5c01d51e_8f32_403d_b41f_87f338a79fe6"><script type="text/javascript">at_attach("id1e437788_debb_4376_8ec7_331fbb652538", "id5c01d51e_8f32_403d_b41f_87f338a79fe6", "click", "x", "pointer");</script><div><table style="text-align:left;"><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/common_info/show?notificationId=6157032" onclick="viewOrderInfo('common_info/show?notificationId=6157032');return false;"><span class="iceMnuItmLabel" id="ideb09a96b_1e9b_430c_80d3_24c28dfe8702">Сведения заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/order_document_list_info/show?notificationId=6157032" onclick="viewOrderInfo('order_document_list_info/show?notificationId=6157032');return false;"><span class="iceMnuItmLabel" id="id17442108_d47c_45b3_a6d5_7585cc34a266">Документы заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/changes_and_explanations/show?notificationId=6157032" onclick="viewOrderInfo('changes_and_explanations/show?notificationId=6157032');return false;"><span class="iceMnuItmLabel" id="id63767d53_c9d4_4493_ba74_97fa84693b18">Изменения и разъяснения</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/events_journal/show?notificationId=6157032" onclick="viewOrderInfo('events_journal/show?notificationId=6157032');return false;"><span class="iceMnuItmLabel" id="ida6a091e4_694e_447a_b15b_b40ce0c0261d">Журнал событий</span></a></td></tr><tr><td><div class="dropdownPopupMenuSeparator"/></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/printForm?type=NOTIFICATION&id=6157032" onclick="showNotificationPrintForm(6157032);return false;"><span class="iceMnuItmLabel" id="id6eedad2f_34a1_4e65_b760_9adf9ff45d68">Печатная форма извещения</span></a></td></tr></table></div></div></div></td></tr></table></td></tr><tr><td><span class="iceOutTxt" style="padding-right:3px;" id="id8eed8055_80f2_449b_98ac_9e821304921c">Организация, размещающая заказ:</span><a class="iceCmdLnk" href="/pgz/public/action/organization/view?organizationId=616341" onclick="window.open('/pgz/public/action/organization/view?organizationId=616341');return false;"><span>агентство государственного заказа Красноярского края</span></a><br/></td></tr></tbody></table></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><span>15.05.2013</span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn105"><span>20&nbsp;050,00 </span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6157032" onclick="viewOrderInfo('events_journal/show?notificationId=6157032');return false;"><span>23.05.2013</span></a></td></tr><tr class="iceDatTblRow searchResultTableRow searchResultRow"><td class="iceDatTblCol searchResultTableCol searchResultColumn"><table class="tableColumn70"><tr><td><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156947" onclick="viewOrderInfo('events_journal/show?notificationId=6156947');return false;"><span id="id39d571e8_a8b6_4606_b4b4_0d4bc7211e01">Новое!</span></a></td></tr></table></td><td align="left" class="iceDatTblCol searchResultTableCol searchResultColumn aLeft" style="text-align: left; width:100%"><table cellpadding="0" cellspacing="0" style="text-align: left;"><tbody><tr><td colspan="2"><span class="blueBold">Запрос котировок № </span><a class="iceCmdLnk" href="/pgz/printForm?type=NOTIFICATION&id=6156947" onclick="showNotificationPrintForm(6156947);return false;"><span>0330300005613000035</span></a></td></tr><tr><td class="paddR10"><table><tr><td class="width100p" style="vertical-align:top; text-align: left;"><div><div><table class="dropDownTable"><tbody><tr><td style="text-align:left;"><a class="iceOutLnk" href="/pgz/public/action/orders/info/common_info/show?notificationId=6156947" onclick="viewOrderInfo('common_info/show?notificationId=6156947');return false;">Поставка расходных материалов для многофункциональных устройств и принтеров</a></td><td class="dropDownLinkTd"><a style="color:#FFFFFF;" onmouseout="getElementById('idbe16f57c_5f27_4aa8_b61b_b5b1daee4ce9').className = 'linkMenuArrow';" onmouseover="getElementById('idbe16f57c_5f27_4aa8_b61b_b5b1daee4ce9').className = 'linkMenuArrowHighlighted';"><input id="idbe16f57c_5f27_4aa8_b61b_b5b1daee4ce9" type="image" src="/pgz/img/link_menu_arrow.gif" class="linkMenuArrow"/></a></td></tr></tbody></table></div><div class="dropdownPopupMenuPanel iceMnuPopVrtTopSubMenu" id="id241fbb7d_2894_499b_a393_cd604817ff06"><script type="text/javascript">at_attach("idbe16f57c_5f27_4aa8_b61b_b5b1daee4ce9", "id241fbb7d_2894_499b_a393_cd604817ff06", "click", "x", "pointer");</script><div><table style="text-align:left;"><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/common_info/show?notificationId=6156947" onclick="viewOrderInfo('common_info/show?notificationId=6156947');return false;"><span class="iceMnuItmLabel" id="ide68bd399_af0d_49fa_bf5c_1a92ff871b11">Сведения заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/order_document_list_info/show?notificationId=6156947" onclick="viewOrderInfo('order_document_list_info/show?notificationId=6156947');return false;"><span class="iceMnuItmLabel" id="idd17cf7fe_c25b_4137_9c69_356a90dd4e61">Документы заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/changes_and_explanations/show?notificationId=6156947" onclick="viewOrderInfo('changes_and_explanations/show?notificationId=6156947');return false;"><span class="iceMnuItmLabel" id="idecf34925_5819_452b_9f0d_b3789b4f2cd4">Изменения и разъяснения</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156947" onclick="viewOrderInfo('events_journal/show?notificationId=6156947');return false;"><span class="iceMnuItmLabel" id="id8a9209bc_8a93_4480_873c_5668d482112e">Журнал событий</span></a></td></tr><tr><td><div class="dropdownPopupMenuSeparator"/></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/printForm?type=NOTIFICATION&id=6156947" onclick="showNotificationPrintForm(6156947);return false;"><span class="iceMnuItmLabel" id="ide8507f2c_713b_4531_a396_9be4912a946a">Печатная форма извещения</span></a></td></tr></table></div></div></div></td></tr></table></td></tr><tr><td><span class="iceOutTxt" style="padding-right:3px;" id="ida8289820_cc38_4933_9747_fab41a117805">Организация, размещающая заказ:</span><a class="iceCmdLnk" href="/pgz/public/action/organization/view?organizationId=806127" onclick="window.open('/pgz/public/action/organization/view?organizationId=806127');return false;"><span>муниципальное бюджетное учреждение &quot;Центр муниципальных информационных ресурсов и технологий&quot;</span></a><br/></td></tr></tbody></table></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><span>23.05.2013</span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn105"><span>51&nbsp;000,00 </span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156947" onclick="viewOrderInfo('events_journal/show?notificationId=6156947');return false;"><span>23.05.2013</span></a></td></tr><tr class="iceDatTblRow searchResultTableRow searchResultRow"><td class="iceDatTblCol searchResultTableCol searchResultColumn"><table class="tableColumn70"><tr><td><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156946" onclick="viewOrderInfo('events_journal/show?notificationId=6156946');return false;"><span id="id194d3513_c815_4433_921f_ca83248020fe">Новое!</span></a></td></tr><tr><td><span id="id943030b2_b149_4f5f_979c_cffb163de198"><script type="text/javascript">var $j=jQuery.noConflict();$j(document).ready(function(){$j('#id943030b2_b149_4f5f_979c_cffb163de198').qtip({content: 'Субъекты малого предпринимательства могут участвовать и в других торгах и запросах котировок.',position:{target: 'mouse', adjust: {mouse: true, screen: true}},api: {onRender: function(){$j('#id943030b2_b149_4f5f_979c_cffb163de198').bind('mousedown', this.hide); $j('#id943030b2_b149_4f5f_979c_cffb163de198').bind('#keydown', this.hide);}}});});</script><span>Для малого бизнеса</span></span></td></tr></table></td><td align="left" class="iceDatTblCol searchResultTableCol searchResultColumn aLeft" style="text-align: left; width:100%"><table cellpadding="0" cellspacing="0" style="text-align: left;"><tbody><tr><td colspan="2"><span class="blueBold">Запрос котировок № </span><a class="iceCmdLnk" href="/pgz/printForm?type=NOTIFICATION&id=6156946" onclick="showNotificationPrintForm(6156946);return false;"><span>0369300008413000258</span></a></td></tr><tr><td class="paddR10"><table><tr><td class="width100p" style="vertical-align:top; text-align: left;"><div><div><table class="dropDownTable"><tbody><tr><td style="text-align:left;"><a class="iceOutLnk" href="/pgz/public/action/orders/info/common_info/show?notificationId=6156946" onclick="viewOrderInfo('common_info/show?notificationId=6156946');return false;">Поставка  бумаги для офисной техники для нужд МОУ СОШ № 6</a></td><td class="dropDownLinkTd"><a style="color:#FFFFFF;" onmouseout="getElementById('idae016bd5_c5db_42f6_a32d_511fd855666f').className = 'linkMenuArrow';" onmouseover="getElementById('idae016bd5_c5db_42f6_a32d_511fd855666f').className = 'linkMenuArrowHighlighted';"><input id="idae016bd5_c5db_42f6_a32d_511fd855666f" type="image" src="/pgz/img/link_menu_arrow.gif" class="linkMenuArrow"/></a></td></tr></tbody></table></div><div class="dropdownPopupMenuPanel iceMnuPopVrtTopSubMenu" id="idaf638796_e709_46eb_b152_2b7365e055ea"><script type="text/javascript">at_attach("idae016bd5_c5db_42f6_a32d_511fd855666f", "idaf638796_e709_46eb_b152_2b7365e055ea", "click", "x", "pointer");</script><div><table style="text-align:left;"><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/common_info/show?notificationId=6156946" onclick="viewOrderInfo('common_info/show?notificationId=6156946');return false;"><span class="iceMnuItmLabel" id="id9a5106d4_51ec_49b7_b2f3_34216fd360c7">Сведения заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/order_document_list_info/show?notificationId=6156946" onclick="viewOrderInfo('order_document_list_info/show?notificationId=6156946');return false;"><span class="iceMnuItmLabel" id="idd90d5739_47ca_48e7_a00b_4fcd825c829f">Документы заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/changes_and_explanations/show?notificationId=6156946" onclick="viewOrderInfo('changes_and_explanations/show?notificationId=6156946');return false;"><span class="iceMnuItmLabel" id="id7c7b4aab_2563_489a_8db3_d54e3696b4a6">Изменения и разъяснения</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156946" onclick="viewOrderInfo('events_journal/show?notificationId=6156946');return false;"><span class="iceMnuItmLabel" id="id16187bcd_d722_41cb_95aa_b2d775c22ed8">Журнал событий</span></a></td></tr><tr><td><div class="dropdownPopupMenuSeparator"/></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/printForm?type=NOTIFICATION&id=6156946" onclick="showNotificationPrintForm(6156946);return false;"><span class="iceMnuItmLabel" id="id9959132b_e83b_4f6e_836a_6f91818724a3">Печатная форма извещения</span></a></td></tr></table></div></div></div></td></tr></table></td></tr><tr><td><span class="iceOutTxt" style="padding-right:3px;" id="id4df61ac7_f121_48f3_b40d_3193b713d974">Организация, размещающая заказ:</span><a class="iceCmdLnk" href="/pgz/public/action/organization/view?organizationId=647931" onclick="window.open('/pgz/public/action/organization/view?organizationId=647931');return false;"><span>администрация муниципального образования &quot;Чебаркульский городской округ&quot;</span></a><br/></td></tr></tbody></table></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><span>23.05.2013</span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn105"><span>5&nbsp;005,00 </span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156946" onclick="viewOrderInfo('events_journal/show?notificationId=6156946');return false;"><span>23.05.2013</span></a></td></tr><tr class="iceDatTblRow searchResultTableRow searchResultRow"><td class="iceDatTblCol searchResultTableCol searchResultColumn"><table class="tableColumn70"><tr><td><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156980" onclick="viewOrderInfo('events_journal/show?notificationId=6156980');return false;"><span id="idf35da10e_b420_437e_a14e_a5a8402d152e">Новое!</span></a></td></tr></table></td><td align="left" class="iceDatTblCol searchResultTableCol searchResultColumn aLeft" style="text-align: left; width:100%"><table cellpadding="0" cellspacing="0" style="text-align: left;"><tbody><tr><td colspan="2"><span class="blueBold">Запрос котировок № </span><a class="iceCmdLnk" href="/pgz/printForm?type=NOTIFICATION&id=6156980" onclick="showNotificationPrintForm(6156980);return false;"><span>0360300019513000051</span></a></td></tr><tr><td class="paddR10"><table><tr><td class="width100p" style="vertical-align:top; text-align: left;"><div><div><table class="dropDownTable"><tbody><tr><td style="text-align:left;"><a class="iceOutLnk" href="/pgz/public/action/orders/info/common_info/show?notificationId=6156980" onclick="viewOrderInfo('common_info/show?notificationId=6156980');return false;">Поставка изделий из поливинилхлоридов и сополимеров винилхлорида прочих</a></td><td class="dropDownLinkTd"><a style="color:#FFFFFF;" onmouseout="getElementById('id2bd10e2e_f4ae_4478_a7fa_788d7d9ebc9e').className = 'linkMenuArrow';" onmouseover="getElementById('id2bd10e2e_f4ae_4478_a7fa_788d7d9ebc9e').className = 'linkMenuArrowHighlighted';"><input id="id2bd10e2e_f4ae_4478_a7fa_788d7d9ebc9e" type="image" src="/pgz/img/link_menu_arrow.gif" class="linkMenuArrow"/></a></td></tr></tbody></table></div><div class="dropdownPopupMenuPanel iceMnuPopVrtTopSubMenu" id="idafd9c7cb_e571_4546_8210_a7f8840974d2"><script type="text/javascript">at_attach("id2bd10e2e_f4ae_4478_a7fa_788d7d9ebc9e", "idafd9c7cb_e571_4546_8210_a7f8840974d2", "click", "x", "pointer");</script><div><table style="text-align:left;"><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/common_info/show?notificationId=6156980" onclick="viewOrderInfo('common_info/show?notificationId=6156980');return false;"><span class="iceMnuItmLabel" id="idee2306a1_694a_4b5c_b14e_aee30b29183f">Сведения заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/order_document_list_info/show?notificationId=6156980" onclick="viewOrderInfo('order_document_list_info/show?notificationId=6156980');return false;"><span class="iceMnuItmLabel" id="idd47858a5_af73_421d_8514_c79e3e39dc2e">Документы заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/changes_and_explanations/show?notificationId=6156980" onclick="viewOrderInfo('changes_and_explanations/show?notificationId=6156980');return false;"><span class="iceMnuItmLabel" id="ideaa119ea_464c_4d50_8a4c_347f5bbd99e6">Изменения и разъяснения</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156980" onclick="viewOrderInfo('events_journal/show?notificationId=6156980');return false;"><span class="iceMnuItmLabel" id="id474541e5_ba18_445f_8b1f_3791f3e5a4bf">Журнал событий</span></a></td></tr><tr><td><div class="dropdownPopupMenuSeparator"/></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/printForm?type=NOTIFICATION&id=6156980" onclick="showNotificationPrintForm(6156980);return false;"><span class="iceMnuItmLabel" id="idd06591bf_ec2f_47e4_bdb3_c46ed8eb181d">Печатная форма извещения</span></a></td></tr></table></div></div></div></td></tr></table></td></tr><tr><td><span class="iceOutTxt" style="padding-right:3px;" id="ide2793990_e08a_44b6_8201_70d42ee37de9">Организация, размещающая заказ:</span><a class="iceCmdLnk" href="/pgz/public/action/organization/view?organizationId=803046" onclick="window.open('/pgz/public/action/organization/view?organizationId=803046');return false;"><span>Муниципальное учреждение здравоохранения &quot;5 Детская инфекционная клиническая больница&quot; комитета здравоохранения администрации муниципального образования &quot;Город Саратов&quot;</span></a><br/></td></tr></tbody></table></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><span>23.05.2013</span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn105"><span>85&nbsp;321,73 </span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6156980" onclick="viewOrderInfo('events_journal/show?notificationId=6156980');return false;"><span>23.05.2013</span></a></td></tr><tr class="iceDatTblRow searchResultTableRow searchResultRow"><td class="iceDatTblCol searchResultTableCol searchResultColumn"><table class="tableColumn70"><tr><td><a class="iceCmdLnk" href="/pgz/public/action/orders/info/changes_and_explanations/show?notificationId=6157017" onclick="viewOrderInfo('changes_and_explanations/show?notificationId=6157017');return false;"><span id="idb27e3642_e150_401f_bac6_5d9ebd1c614a">Изменения</span></a></td></tr><tr><td><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6157017" onclick="viewOrderInfo('events_journal/show?notificationId=6157017');return false;"><span id="ide847fc10_7550_41f4_b267_1b085d4136d5">Новое!</span></a></td></tr><tr><td><span id="id6b942770_50e8_447e_8363_6efa39d3b4a5"><script type="text/javascript">var $j=jQuery.noConflict();$j(document).ready(function(){$j('#id6b942770_50e8_447e_8363_6efa39d3b4a5').qtip({content: 'Субъекты малого предпринимательства могут участвовать и в других торгах и запросах котировок.',position:{target: 'mouse', adjust: {mouse: true, screen: true}},api: {onRender: function(){$j('#id6b942770_50e8_447e_8363_6efa39d3b4a5').bind('mousedown', this.hide); $j('#id6b942770_50e8_447e_8363_6efa39d3b4a5').bind('#keydown', this.hide);}}});});</script><span>Для малого бизнеса</span></span></td></tr></table></td><td align="left" class="iceDatTblCol searchResultTableCol searchResultColumn aLeft" style="text-align: left; width:100%"><table cellpadding="0" cellspacing="0" style="text-align: left;"><tbody><tr><td colspan="2"><span class="blueBold">Запрос котировок № </span><a class="iceCmdLnk" href="/pgz/printForm?type=NOTIFICATION&id=6157017" onclick="showNotificationPrintForm(6157017);return false;"><span>0160300014413000326</span></a></td></tr><tr><td class="paddR10"><table><tr><td class="width100p" style="vertical-align:top; text-align: left;"><div><div><table class="dropDownTable"><tbody><tr><td style="text-align:left;"><a class="iceOutLnk" href="/pgz/public/action/orders/info/common_info/show?notificationId=6157017" onclick="viewOrderInfo('common_info/show?notificationId=6157017');return false;">Поставка магнитолы</a></td><td class="dropDownLinkTd"><a style="color:#FFFFFF;" onmouseout="getElementById('ida2a3a979_c993_4538_ad9d_73551c67444a').className = 'linkMenuArrow';" onmouseover="getElementById('ida2a3a979_c993_4538_ad9d_73551c67444a').className = 'linkMenuArrowHighlighted';"><input id="ida2a3a979_c993_4538_ad9d_73551c67444a" type="image" src="/pgz/img/link_menu_arrow.gif" class="linkMenuArrow"/></a></td></tr></tbody></table></div><div class="dropdownPopupMenuPanel iceMnuPopVrtTopSubMenu" id="id5153a268_6242_4c6b_951a_4de3adce95f2"><script type="text/javascript">at_attach("ida2a3a979_c993_4538_ad9d_73551c67444a", "id5153a268_6242_4c6b_951a_4de3adce95f2", "click", "x", "pointer");</script><div><table style="text-align:left;"><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/common_info/show?notificationId=6157017" onclick="viewOrderInfo('common_info/show?notificationId=6157017');return false;"><span class="iceMnuItmLabel" id="id9231daa2_fa3f_4966_b882_4b62895096f9">Сведения заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/order_document_list_info/show?notificationId=6157017" onclick="viewOrderInfo('order_document_list_info/show?notificationId=6157017');return false;"><span class="iceMnuItmLabel" id="id8778e98b_7f47_421c_8817_ede069d45cb1">Документы заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/changes_and_explanations/show?notificationId=6157017" onclick="viewOrderInfo('changes_and_explanations/show?notificationId=6157017');return false;"><span class="iceMnuItmLabel" id="id08f05827_850a_4e62_8f30_47fb4b9de3c8">Изменения и разъяснения</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/events_journal/show?notificationId=6157017" onclick="viewOrderInfo('events_journal/show?notificationId=6157017');return false;"><span class="iceMnuItmLabel" id="idba700224_8783_41e9_8cec_7af77038d77c">Журнал событий</span></a></td></tr><tr><td><div class="dropdownPopupMenuSeparator"/></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/printForm?type=NOTIFICATION&id=6157017" onclick="showNotificationPrintForm(6157017);return false;"><span class="iceMnuItmLabel" id="id401f7ee2_dd8e_4cce_ad17_cdeb9c11f3e2">Печатная форма извещения</span></a></td></tr></table></div></div></div></td></tr></table></td></tr><tr><td><span class="iceOutTxt" style="padding-right:3px;" id="id9188e4ff_0631_421f_b2a6_c592f27208c3">Организация, размещающая заказ:</span><a class="iceCmdLnk" href="/pgz/public/action/organization/view?organizationId=650102" onclick="window.open('/pgz/public/action/organization/view?organizationId=650102');return false;"><span>Администрация Петровского муниципального района Саратовской области</span></a><br/></td></tr></tbody></table></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><span>15.05.2013</span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn105"><span>11&nbsp;790,00 </span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6157017" onclick="viewOrderInfo('events_journal/show?notificationId=6157017');return false;"><span>23.05.2013</span></a></td></tr><tr class="iceDatTblRow searchResultTableRow searchResultRow"><td class="iceDatTblCol searchResultTableCol searchResultColumn"><table class="tableColumn70"><tr><td><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6008576" onclick="viewOrderInfo('events_journal/show?notificationId=6008576');return false;"><span id="id6a1c0fa7_9adb_462d_a0b3_aa553f809623">Новое!</span></a></td></tr><tr><td><span id="idd6cc9266_8a0d_4bbd_a837_0acd1598d1c0"><script type="text/javascript">var $j=jQuery.noConflict();$j(document).ready(function(){$j('#idd6cc9266_8a0d_4bbd_a837_0acd1598d1c0').qtip({content: 'Субъекты малого предпринимательства могут участвовать и в других торгах и запросах котировок.',position:{target: 'mouse', adjust: {mouse: true, screen: true}},api: {onRender: function(){$j('#idd6cc9266_8a0d_4bbd_a837_0acd1598d1c0').bind('mousedown', this.hide); $j('#idd6cc9266_8a0d_4bbd_a837_0acd1598d1c0').bind('#keydown', this.hide);}}});});</script><span>Для малого бизнеса</span></span></td></tr></table></td><td align="left" class="iceDatTblCol searchResultTableCol searchResultColumn aLeft" style="text-align: left; width:100%"><table cellpadding="0" cellspacing="0" style="text-align: left;"><tbody><tr><td colspan="2"><span class="blueBold">Запрос котировок № </span><a class="iceCmdLnk" href="/pgz/printForm?type=NOTIFICATION&id=6008576" onclick="showNotificationPrintForm(6008576);return false;"><span>0356300149513000020</span></a></td></tr><tr><td class="paddR10"><table><tr><td class="width100p" style="vertical-align:top; text-align: left;"><div><div><table class="dropDownTable"><tbody><tr><td style="text-align:left;"><a class="iceOutLnk" href="/pgz/public/action/orders/info/common_info/show?notificationId=6008576" onclick="viewOrderInfo('common_info/show?notificationId=6008576');return false;">оказание автотранспортных услуг</a></td><td class="dropDownLinkTd"><a style="color:#FFFFFF;" onmouseout="getElementById('ida5b4103e_79b1_45aa_bfbe_075e40198045').className = 'linkMenuArrow';" onmouseover="getElementById('ida5b4103e_79b1_45aa_bfbe_075e40198045').className = 'linkMenuArrowHighlighted';"><input id="ida5b4103e_79b1_45aa_bfbe_075e40198045" type="image" src="/pgz/img/link_menu_arrow.gif" class="linkMenuArrow"/></a></td></tr></tbody></table></div><div class="dropdownPopupMenuPanel iceMnuPopVrtTopSubMenu" id="id1c8d8306_6164_434e_8577_009e6f0e80e2"><script type="text/javascript">at_attach("ida5b4103e_79b1_45aa_bfbe_075e40198045", "id1c8d8306_6164_434e_8577_009e6f0e80e2", "click", "x", "pointer");</script><div><table style="text-align:left;"><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/common_info/show?notificationId=6008576" onclick="viewOrderInfo('common_info/show?notificationId=6008576');return false;"><span class="iceMnuItmLabel" id="idea761058_c6d3_4727_89b0_c91c03cf3d26">Сведения заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/order_document_list_info/show?notificationId=6008576" onclick="viewOrderInfo('order_document_list_info/show?notificationId=6008576');return false;"><span class="iceMnuItmLabel" id="idc6ba3a25_ee4b_4339_a096_d33bae348f1c">Документы заказа</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/changes_and_explanations/show?notificationId=6008576" onclick="viewOrderInfo('changes_and_explanations/show?notificationId=6008576');return false;"><span class="iceMnuItmLabel" id="id8fdb8200_bab1_444a_aa4a_ec0b465d7914">Изменения и разъяснения</span></a></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/public/action/orders/info/events_journal/show?notificationId=6008576" onclick="viewOrderInfo('events_journal/show?notificationId=6008576');return false;"><span class="iceMnuItmLabel" id="id1669d7ff_4dac_423c_a858_22f9f359afd4">Журнал событий</span></a></td></tr><tr><td><div class="dropdownPopupMenuSeparator"/></td></tr><tr><td class="iceMnuPopVrtItem"><a href="/pgz/printForm?type=NOTIFICATION&id=6008576" onclick="showNotificationPrintForm(6008576);return false;"><span class="iceMnuItmLabel" id="id96b6a2fe_62ad_45f3_a020_219fe714148c">Печатная форма извещения</span></a></td></tr></table></div></div></div></td></tr></table></td></tr><tr><td><span class="iceOutTxt" style="padding-right:3px;" id="id4c36eeb8_bf93_42db_9c7c_f29b8bee5640">Организация, размещающая заказ:</span><a class="iceCmdLnk" href="/pgz/public/action/organization/view?organizationId=728117" onclick="window.open('/pgz/public/action/organization/view?organizationId=728117');return false;"><span>Муниципальное бюджетное учреждение здравоохранения &quot;Городская стоматологическая поликлиника № 7&quot;</span></a><br/></td></tr></tbody></table></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><span>23.05.2013</span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn105"><span>331&nbsp;204,68 </span></td><td class="iceDatTblCol searchResultTableCol searchResultColumn tableColumn70"><a class="iceCmdLnk" href="/pgz/public/action/orders/info/events_journal/show?notificationId=6008576" onclick="viewOrderInfo('events_journal/show?notificationId=6008576');return false;"><span>23.05.2013</span></a></td></tr></tbody></table><table><tr><td>Страницы:</td><td class="width100Left"><table><tbody><tr><td class="iceDatPgrScrCol"><a href="javascript:" onclick="paginateTab(1);return false;"><span>1</span></a></td><td class="iceDatPgrCol"><a href="javascript:" onclick="paginateTab(2);return false;"><span>2</span></a></td><td class="iceDatPgrCol"><a href="javascript:" onclick="paginateTab(3);return false;"><span>3</span></a></td><td class="iceDatPgrCol"><a href="javascript:" onclick="paginateTab(4);return false;"><span>4</span></a></td><td class="iceDatPgrCol"><a href="javascript:" onclick="paginateTab(5);return false;"><span>5</span></a></td><td class="iceDatPgrCol"><a href="javascript:" onclick="paginateTab(6);return false;"><span>6</span></a></td><td class="iceDatPgrCol"><a href="javascript:" onclick="paginateTab(7);return false;"><span>7</span></a></td><td class="iceDatPgrCol"><a href="javascript:" onclick="paginateTab(8);return false;"><span>8</span></a></td><td class="iceDatPgrCol"><a href="javascript:" onclick="paginateTab(9);return false;"><span>9</span></a></td><td class="iceDatPgrCol"><a href="javascript:" onclick="paginateTab(10);return false;"><span>10</span></a></td><td class="iceDatPgrScrBtn"><a class="iceCmdLnk" href="javascript:" onclick="paginateTab(6482);return false;"><span>Последняя</span></a></td></tr></tbody></table></td></tr></table></td></tr></tbody></table></div></td></tr></tbody></table></td></tr></tbody></table><script type="text/javascript">
+
+    </script>
+                                                    </td>
+												</tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </td>
+                    <!--<td class="sideColumn">
+                        <table cellspacing="0" cellpadding="0" width="100%" class="icePnlGrd">
+                            <tbody>
+                                <tr class="icePnlGrdRow1">
+                                    <td class="icePnlGrdCol shadowRight">
+                                        <span class="iceOutTxt">
+                                            &nbsp;
+                                        </span>
+                                    </td>
+                                    <td class="icePnlGrdCol qweqwe">
+                                        <span class="iceOutTxt">
+                                            &nbsp;
+                                        </span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>-->
+				</tr>
+				
+				<tr>
+					<td id="j_id56-5-0" class="icePnlGrdCol1" style="background-color:#dbe1e6; padding-left: 300px;" align="left">
+						
+
+
+
+
+
+
+<table cellspacing="0" cellpadding="0" class="icePnlGrd footerTable">
+    <tbody>
+    <tr class="icePnlGrdRow1 footerTableRow1">
+        <td>
+            <div class="version">
+
+<span>Версия системы 2.20.0_006#4</span></div>
+        </td>
+        <td>
+            <a class="iceCmdLnk tech" href="http://zakupki.gov.ru/wps/portal/base/topinfo/information/!ut/p/c5/04_SB8K8xLLM9MSSzPy8xBz9CP0os_hADz8zJydDRwN39yBTA09vzzCzwABvAwMDc6B8JB55AwK6_Tzyc1P1C3IjygHjuYJD/dl3/d3/L0lDU0lKSWdra0EhIS9JTlJBQUlpQ2dBek15cUEhL1lCSlAxTkMxTktfMjd3ISEvN19RSE42QkIxQTBHRzY5MElBSEtPVlJSMDBLNA!!/?WCM_PORTLET=PC_7_QHN6BB1A0GG690IAHKOVRR00K4000000_WCM&WCM_GLOBAL_CONTEXT=/wps/wcm/connect/zakupki/pgzsite/pgzinformation/pgz.information.techsupport">Техническая поддержка</a>
+        </td>
+        <td>
+            
+                <a href="http://top100.rambler.ru/navi/2301379/">
+                    <img src="http://counter.rambler.ru/top100.cnt?2301379" alt="Rambler's Top100" border="0" width="0"
+                         height="0"/>
+                </a>
+            
+            
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+					</td>
+				</tr>
+				
+            </tbody>
+        </table>
+			</div>
+		</div>
+	</td></tr></table>
+    <div class="modalPanel" id="modalPanelId_0" style="display:none;">&nbsp;</div><div class="modalPanel" id="modalPanelId_1" style="display:none;">&nbsp;</div><div class="modalPanel" id="modalPanelId_2" style="display:none;">&nbsp;</div>
+    <script type="text/javascript">
+
+        
+    </script>
+    <link rel="stylesheet" type="text/css" href="/pgz/public/theme/base/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/pgz/calendar/calendar-all.css"/>
+    <link rel="stylesheet" type="text/css" href="/pgz/css/pgz.css"/>
+    <link rel="stylesheet" type="text/css" href="/pgz/css/complaint.css"/>
+    <link rel="stylesheet" type="text/css" href="/pgz/theme/skins/aqua/theme.css"/>
+    <link rel="stylesheet" type="text/css" href="/pgz/theme/rime-portlet.css"/>
+    <link rel="stylesheet" type="text/css" href="/pgz/theme/design.css"/>
+	<link rel="stylesheet" type="text/css" href="/pgz/css/rs_style.css"/>
+
+    
+    <script src="/pgz/js/portal/main.js" type="text/javascript" defer="defer"></script>
+    <script type="text/javascript">
+		Cufon.now();
+	</script>
+	</body>
+</html>
