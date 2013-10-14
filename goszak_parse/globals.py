@@ -1,24 +1,9 @@
 __author__ = 'pavel'
 
-import urllib2
-
-def geturltext(url):
-    content = ""
-    try:
-        headers = {'User-Agent': 'Mozilla 5.10'}
-        request = urllib2.Request(url=url, headers=headers)
-        response = urllib2.urlopen(request)
-        content = response.read()
-    except urllib2.HTTPError, e:
-        print e.code
-        print e.msg
-        print e.headers
-        print e.fp.read()
-    return content
-
 urlBase = "http://zakupki.gov.ru"
 
-urlPaths = {'purchase': "/223/purchase/public/purchase/info/common-info.html",
+urlPaths = {'searchForm': "/223/purchase/public/notification/search.html",
+            'purchase': "/223/purchase/public/purchase/info/common-info.html",
             'protocols': "/223/purchase/info/protocols.html",
             'lots': "/223//purchase/info/lot-list.html",
             'documents': "/223/purchase/info/documents.html",

@@ -1,33 +1,31 @@
 __author__ = 'pavel'
-from bs4 import BeautifulSoup
 
+from parserBase import ParserBase
 import globals
 
 #purchaseStages=PLACEMENT_COMPLETE" \
 #"&purchaseStages=APPLICATION_FILING" \
 #"&purchaseStages=COMMISSION_ACTIVITIES" \
 
-class searchForm:
+class searchForm(ParserBase):
     u"""class for parsing purchase urls from search form"""
     def __init__(self):
-        self.siteBase = "http://zakupki.gov.ru"
-        self.searchUrl = self.siteBase + "/223/purchase/public/notification/search.html?d-3771889-p=%i&purchaseStages=%s"
-        self.soup = BeautifulSoup(globals.geturltext(self.searchUrlFor()))
+        ParserBase.__init__(self, 'searchForm', "d-3771889-p=%i&purchaseStages=%s" % (1, "APPLICATION_FILING"))
+        self.searchUrl = "%s%s?%s" % (globals.urlBase, globals.urlPaths['searchForm'], "d-3771889-p=%i&purchaseStages=%s")
+
+    def searchUrlFor(self, page = 1, purchaseStage = "APPLICATION_FILING"):
+        return self.searchUrl % (page, purchaseStage)
 
     def allPlacementFor(self, purchaseStage = "APPLICATION_FILING", pagelimit = 0):
-        self.soup = BeautifulSoup(globals.geturltext(self.searchUrlFor(1, purchaseStage)))
+        self.updateUrl(self.searchUrlFor(1, purchaseStage))
         limit =pagelimit
         if pagelimit == 0:
             limit = self.totalPagesCount()
         for page in range(1, limit + 1, 1):
             #yield from self.allPurchasesFromPage(self.searchUrlFor(page, purchaseStage))
             for x in self.allPurchasesFromPage(self.searchUrlFor(page, purchaseStage)):
-                yield x
+                yield globals.urlBase + x
 
-
-
-    def searchUrlFor(self, page = 1, purchaseStage = "APPLICATION_FILING"):
-        return self.searchUrl % (page, purchaseStage)
     
     def allPurchasesFromPage(self, pageUrl = "None"):
         if len(pageUrl) != 0:
@@ -49,7 +47,7 @@ def main():
     pages = searcher.allPlacementFor(purchasseStage, pageLimit)
     print(searcher.totalPagesCount())
     for x in pages:
-        print(searcher.siteBase + x)
+        print(x)
 
 main()
 
