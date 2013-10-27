@@ -1,0 +1,5 @@
+# no .pyc files
+*.pyc
+# no hidden files and dirrectories
+.*
+!/.gitignore
