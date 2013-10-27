@@ -4,27 +4,14 @@ urlBase = "http://zakupki.gov.ru"
 
 urlPaths = {'searchForm': "/223/purchase/public/notification/search.html",
             'purchase': "/223/purchase/public/purchase/info/common-info.html",
-            'protocols': "/223/purchase/info/protocols.html",
+            'protocols': "/223/purchase/public/purchase/info/protocols.html",
+            'viewProtocols': "/223/purchase/public/purchase/protocol/ip/view-protocol.html",
+            'protocolApplicants': "/223/purchase/public/purchase/protocol/ip/application/list.html",
+            'protocolDesision': "/223/purchase/public/purchase/protocol/ip/application/comission-decision.html",
             'lots': "/223//purchase/info/lot-list.html",
             'documents': "/223/purchase/info/documents.html",
             'changes': "/223/purchase/info/changes-and-clarifications.html",
             'contractInfo': "/233/purchase/info/contractInfo.html",
             'journal': "/233/purchase/info/journal.html"}
 
-
-
-    #On protocol page for purchase
-        #http://zakupki.gov.ru/223/purchase/public/purchase/info/protocols.html
-        # ?purchaseId=625793&purchaseMethodType=IS
-    #we can find protocol ID
-        #<p positionmarker="1" class="protocolName" protocolinfoid="645636" protocolentityid="628612" version="1" status="P">
-        #</p>
-    #which redirects us on protocol page
-        #http://zakupki.gov.ru/223/purchase/public/purchase/protocol/ip/view-protocol.html
-        # ?protocolInfoId=645636&purchaseId=625793
-    #on this page we can find applications list tab
-        #http://zakupki.gov.ru/223/purchase/public/purchase/protocol/ip/application/list.html
-        # ?noticeInfoId=&protocolInfoId=645636&mode=view
-    #and commission decision
-        #http://zakupki.gov.ru/223/purchase/public/purchase/protocol/ip/application/comission-decision.html
-        # ?noticeInfoId=&protocolInfoId=645636&mode=view
+DOMElementsKeys = {'purchaseProtocol': ("protocolinfoid",)}
