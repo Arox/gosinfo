@@ -24,7 +24,7 @@ class ParserBase:
             request = urllib2.Request(url=url, headers=headers)
             response = urllib2.urlopen(request)
             content += response.read()
-        except urllib2.HTTPError, e:
+        except urllib2.HTTPError as e:
             if showErrorMessage:
                 print("err code = %i" % e.code)
                 print("message %s" % e.msg)
@@ -34,4 +34,8 @@ class ParserBase:
 
     def updateUrl(self, url):
         self.url = url
-        self.soup = BeautifulSoup(self.geturltext(self.url))
+        self.updateSoupFromContent(self.geturltext(self.url))
+
+    def updateSoupFromContent(self, content):
+        self.url = ""
+        self.soup = BeautifulSoup(content)
